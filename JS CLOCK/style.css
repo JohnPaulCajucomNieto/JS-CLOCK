@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(https://th.bing.com/th/id/R.cf582657efaffb656b23798a94ae6f1b?rik=cO9FLA%2f3H95mqA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fBQPCFtN.jpg&ehk=su011N2ApmxdfZjoKqkTrWSdaL8j4IEJpl9i6P6BBvE%3d&risl=&pid=ImgRaw&r=0);
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 20px;
+}
+.clock{
+    display: flex;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:80px;
+    box-shadow: 10px 10px 10px;
+
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: white ;
+    opacity: .8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-bottom: 30px;
+
+}
